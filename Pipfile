@@ -11,6 +11,8 @@ thoth-lab = "*"
 thoth-analyzer = "*"
 thoth-common = "*"
 thoth-storages = "*"
+thoth-package-extract = "*"
+thoth-solver = "*"
 
 
 [dev-packages]
