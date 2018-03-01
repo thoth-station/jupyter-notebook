@@ -23,6 +23,6 @@ thoth-analyzer==0.0.3
 thoth-common==0.0.0
 thoth-lab==0.0.0
 thoth-storages==0.0.3
-tornado==4.4.1
+tornado==4.5.3
 urllib3==1.22
 yarl==1.1.1
