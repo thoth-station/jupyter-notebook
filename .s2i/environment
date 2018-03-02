@@ -1,2 +1,1 @@
-UPGRADE_PIP_TO_LATEST=1
-ENABLE_PIPENV=1
+XDG_CACHE_HOME=/opt/app-root/src/.cache
