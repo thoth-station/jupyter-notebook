@@ -57,7 +57,7 @@ numba==0.31.0
 numexpr==2.6.4
 numpy==1.14.1             # via bokeh, dask, h5py, matplotlib, numba, numexpr, pandas, patsy, scipy
 packaging==17.1           # via bokeh
-pandas==0.19.2
+pandas==0.22.0
 pandocfilters==1.4.2      # via nbconvert
 parso==0.1.1              # via jedi
 patsy==0.4.1
