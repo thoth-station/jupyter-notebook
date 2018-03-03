@@ -15,7 +15,7 @@ bokeh==0.12.14
 certifi==2018.1.18        # via requests, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages
 chardet==3.0.4            # via aiohttp, requests, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages
 click==6.7                # via thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
-cloudpickle==0.2.2
+cloudpickle==0.5.2
 colorama==0.3.9           # via rainbow-logging-handler, thoth-solver
 cycler==0.10.0            # via matplotlib
 cython==0.25.2
