@@ -85,7 +85,7 @@ simplegeneric==0.8.1      # via ipython
 six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, prompt-toolkit, protobuf, python-dateutil, scikit-image, thoth-adviser, thoth-storages, traitlets
 sqlalchemy==1.1.17
 statsmodels==0.8.0
-sympy==1.0
+sympy==1.1.1
 terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 thoth-adviser==0.0.0
