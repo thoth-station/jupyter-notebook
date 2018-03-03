@@ -28,7 +28,7 @@ distro==1.2.0             # via thoth-adviser, thoth-analyzer, thoth-package-ext
 entrypoints==0.2.3        # via nbconvert
 goblin==2.1.0             # via thoth-adviser, thoth-storages
 gremlinpython==3.2.6      # via thoth-adviser, thoth-storages
-h5py==2.6.0
+h5py==2.7.1
 hashin==0.11.5            # via thoth-solver
 html5lib==1.0.1           # via bleach
 idna==2.6                 # via requests, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages, yarl
