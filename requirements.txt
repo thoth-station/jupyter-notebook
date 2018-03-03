@@ -18,7 +18,7 @@ click==6.7                # via thoth-adviser, thoth-analyzer, thoth-package-ext
 cloudpickle==0.2.2
 colorama==0.3.9           # via rainbow-logging-handler, thoth-solver
 cycler==0.10.0            # via matplotlib
-cython==0.25.2
+cython==0.27.3
 daiquiri==1.3.0           # via thoth-package-extract
 dask[array]==0.17.1       # via scikit-image
 decorator==4.2.1          # via ipython, networkx, thoth-lab, traitlets
