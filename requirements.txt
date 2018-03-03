@@ -79,7 +79,7 @@ requests==2.18.4          # via thoth-adviser, thoth-analyzer, thoth-package-ext
 scikit-image==0.12.3
 scikit-learn==0.18.2
 scipy==0.19.1
-seaborn==0.7.1
+seaborn==0.8.1
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
 six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, prompt-toolkit, protobuf, python-dateutil, scikit-image, thoth-adviser, thoth-storages, traitlets
