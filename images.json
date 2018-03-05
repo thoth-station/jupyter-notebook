@@ -33,6 +33,12 @@
                 },
                 {
                     "type": "ImageChange"
+                },
+                {
+                    "type": "GitHub",
+                    "github": {
+                        "secret": "secret101"
+                    }
                 }
             ],
             "source": {
