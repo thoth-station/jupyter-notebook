@@ -21,7 +21,7 @@ cycler==0.10.0            # via matplotlib
 cython==0.25.2
 daiquiri==1.3.0           # via thoth-package-extract
 dask[array]==0.17.1       # via scikit-image
-decorator==4.2.1          # via ipython, networkx, thoth-lab, traitlets
+decorator==4.2.1          # via ipython, networkx, plotly, thoth-lab, traitlets
 delegator.py==0.1.0       # via thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
 dill==0.2.7.1
 distro==1.2.0             # via thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
@@ -50,12 +50,12 @@ mistune==0.8.3            # via nbconvert
 mpmath==1.0.0             # via sympy
 multidict==4.1.0          # via aiohttp, thoth-adviser, thoth-storages, yarl
 nbconvert==5.3.1          # via notebook
-nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
-networkx==2.1             # via scikit-image, thoth-lab
+nbformat==4.4.0           # via ipywidgets, nbconvert, notebook, plotly
+networkx==2.1
 notebook==5.4.0           # via widgetsnbextension
 numba==0.31.0
 numexpr==2.6.4
-numpy==1.14.1             # via bokeh, dask, h5py, matplotlib, numba, numexpr, pandas, patsy, scipy
+numpy==1.14.1
 packaging==17.1           # via bokeh
 pandas==0.19.2
 pandocfilters==1.4.2      # via nbconvert
@@ -65,24 +65,25 @@ pexpect==4.4.0            # via delegator.py, ipython, thoth-adviser, thoth-anal
 pickleshare==0.7.4        # via ipython
 pillow==5.0.0             # via scikit-image
 pipdeptree==0.11.0        # via thoth-solver
+plotly==2.4.1
 prompt-toolkit==1.0.15    # via ipython
 protobuf==3.5.1
 ptyprocess==0.5.2         # via pexpect, terminado, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
 pygments==2.2.0           # via ipython, nbconvert
 pyparsing==2.2.0          # via matplotlib, packaging
 python-dateutil==2.6.1    # via bokeh, jupyter-client, matplotlib, pandas
-pytz==2018.3              # via matplotlib, pandas
+pytz==2018.3              # via matplotlib, pandas, plotly
 pyyaml==3.12              # via aiogremlin, bokeh, thoth-adviser, thoth-storages
 pyzmq==17.0.0             # via jupyter-client
 rainbow-logging-handler==2.2.2  # via thoth-solver
-requests==2.18.4          # via thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages
+requests==2.18.4
 scikit-image==0.12.3
 scikit-learn==0.18.2
 scipy==0.19.1
 seaborn==0.7.1
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
-six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, prompt-toolkit, protobuf, python-dateutil, scikit-image, thoth-adviser, thoth-storages, traitlets
+six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, plotly, prompt-toolkit, protobuf, python-dateutil, scikit-image, thoth-adviser, thoth-storages, traitlets
 sqlalchemy==1.1.17
 statsmodels==0.8.0
 sympy==1.0

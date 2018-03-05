@@ -8,6 +8,17 @@ thoth-package-extract
 thoth-solver
 thoth-storages
 
+# Some additional libraries worth to include and state explicitly
+matplotlib
+networkx
+numpy
+pandas
+plotly
+requests
+scikit-learn
+scipy
+seaborn
+
 # These are from actual s2i minimal notebook image
 #  https://github.com/jupyter-on-openshift/jupyter-notebooks/tree/master/scipy-notebook
 ipywidgets==7.0.*
