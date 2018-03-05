@@ -9,6 +9,7 @@ thoth-solver
 thoth-storages
 
 # Some additional libraries worth to include and state explicitly
+dash
 matplotlib
 networkx
 numpy
