@@ -49,7 +49,7 @@ jupyter-core==4.4.0       # via jupyter-client, nbconvert, nbformat, notebook
 llvmlite==0.22.0          # via numba
 logutils==0.3.5           # via rainbow-logging-handler, thoth-solver
 markupsafe==1.0           # via jinja2
-matplotlib==2.0.2
+matplotlib==2.2.0
 mistune==0.8.3            # via nbconvert
 mpmath==1.0.0             # via sympy
 multidict==4.1.0          # via aiohttp, thoth-adviser, thoth-storages, yarl
