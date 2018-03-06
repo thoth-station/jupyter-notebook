@@ -10,7 +10,7 @@ aiohttp==2.2.5            # via aiogremlin, thoth-adviser, thoth-storages
 async-timeout==2.0.0      # via aiohttp, thoth-adviser, thoth-storages
 attrs==17.4.0             # via thoth-package-extract
 beautifulsoup4==4.5.3
-bleach==2.1.2             # via nbconvert
+bleach==2.1.3             # via nbconvert
 bokeh==0.12.14
 certifi==2018.1.18        # via requests, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages
 chardet==3.0.4            # via aiohttp, requests, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver, thoth-storages
