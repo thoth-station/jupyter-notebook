@@ -75,7 +75,7 @@ protobuf==3.5.1
 ptyprocess==0.5.2         # via pexpect, terminado, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
 pygments==2.2.0           # via ipython, nbconvert
 pyparsing==2.2.0          # via matplotlib, packaging
-python-dateutil==2.6.1    # via bokeh, jupyter-client, matplotlib, pandas
+python-dateutil==2.7.0    # via bokeh, jupyter-client, matplotlib, pandas
 pytz==2018.3              # via matplotlib, pandas, plotly
 pyyaml==3.12              # via aiogremlin, bokeh, thoth-adviser, thoth-storages
 pyzmq==17.0.0             # via jupyter-client
