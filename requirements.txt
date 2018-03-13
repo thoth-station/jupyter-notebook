@@ -6,7 +6,7 @@
 #
 aenum==1.4.5              # via aiogremlin, gremlinpython, thoth-adviser, thoth-storages
 aiogremlin==3.2.6rc1      # via goblin, thoth-adviser, thoth-storages
-aiohttp==2.2.5            # via aiogremlin, thoth-adviser, thoth-storages
+aiohttp==3.0.8            # via aiogremlin, thoth-adviser, thoth-storages
 async-timeout==2.0.0      # via aiohttp, thoth-adviser, thoth-storages
 attrs==17.4.0             # via thoth-package-extract
 beautifulsoup4==4.5.3
