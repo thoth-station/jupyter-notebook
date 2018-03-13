@@ -69,7 +69,7 @@ pexpect==4.4.0            # via delegator.py, ipython, thoth-adviser, thoth-anal
 pickleshare==0.7.4        # via ipython
 pillow==5.0.0             # via scikit-image
 pipdeptree==0.11.0        # via thoth-solver
-plotly==2.4.1
+plotly==2.5.0
 prompt-toolkit==1.0.15    # via ipython
 protobuf==3.5.1
 ptyprocess==0.5.2         # via pexpect, terminado, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
