@@ -96,7 +96,7 @@ testpath==0.3.1           # via nbconvert
 thoth-adviser==0.0.1
 thoth-analyzer==0.0.4
 thoth-common==0.0.0
-thoth-lab==0.0.0
+thoth-lab==0.0.1
 thoth-package-extract==1.0.0rc3
 thoth-solver==1.0.0rc2
 thoth-storages==0.0.4
