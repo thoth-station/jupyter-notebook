@@ -56,7 +56,7 @@ multidict==4.1.0          # via aiohttp, thoth-adviser, thoth-storages, yarl
 nbconvert==5.3.1          # via notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook, plotly
 networkx==2.1
-notebook==5.4.0           # via widgetsnbextension
+notebook==5.4.1           # via widgetsnbextension
 numba==0.31.0
 numexpr==2.6.4
 numpy==1.14.1
