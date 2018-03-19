@@ -1,15 +1,16 @@
 # Packages for the Thoth project
 #  https://github.com/fridex/thoth#crossroad
-thoth-adviser
+thoth-adviser>=0.0.2
 thoth-analyzer
 thoth-common
-thoth-lab
+thoth-lab>=0.0.2
 thoth-package-extract
 thoth-solver
-thoth-storages
+thoth-storages>=0.0.11
 
 # Some additional libraries worth to include and state explicitly
 dash
+holoviews
 matplotlib
 networkx
 numpy
