@@ -1,12 +1,12 @@
 # Packages for the Thoth project
 #  https://github.com/fridex/thoth#crossroad
 thoth-adviser>=0.0.2
-thoth-analyzer
-thoth-common
-thoth-lab>=0.0.2
-thoth-package-extract
-thoth-solver
-thoth-storages>=0.0.11
+thoth-analyzer>=0.0.5
+thoth-common>=0.0.1
+thoth-lab>=0.0.3
+thoth-package-extract>=1.0.0
+thoth-solver>=1.0.0
+thoth-storages>=0.0.12
 
 # Some additional libraries worth to include and state explicitly
 dash
