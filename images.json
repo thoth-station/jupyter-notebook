@@ -52,14 +52,14 @@
                 "sourceStrategy": {
                     "from": {
                         "kind": "ImageStreamTag",
-                        "name": "s2i-minimal-notebook:3.5"
+                        "name": "s2i-minimal-notebook:3.6"
                     }
                 }
             },
             "output": {
                 "to": {
                     "kind": "ImageStreamTag",
-                    "name": "s2i-thoth-notebook:3.5"
+                    "name": "s2i-thoth-notebook:3.6"
                 }
             },
             "resources": {
