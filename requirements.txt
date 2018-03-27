@@ -73,7 +73,7 @@ patsy==0.4.1
 pexpect==4.4.0            # via delegator.py, ipython
 pickleshare==0.7.4        # via ipython
 pipdeptree==0.11.0        # via thoth-solver
-plotly==2.5.0
+plotly==2.5.1
 prompt-toolkit==1.0.15    # via ipython
 protobuf==3.5.2.post1
 ptyprocess==0.5.2         # via pexpect, terminado
