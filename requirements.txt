@@ -16,7 +16,7 @@ boto3==1.6.11             # via thoth-storages
 botocore==1.9.11          # via boto3, s3transfer
 certifi==2018.1.18        # via requests
 chardet==3.0.4            # via aiohttp, requests
-click==6.7                # via flask, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
+click==6.7                # via flask, pip-tools, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-solver
 cloudpickle==0.2.2
 colorama==0.3.9           # via rainbow-logging-handler
 cycler==0.10.0            # via matplotlib
@@ -29,6 +29,7 @@ dill==0.2.7.1
 distro==1.2.0             # via thoth-analyzer
 docutils==0.14            # via botocore
 entrypoints==0.2.3        # via nbconvert
+first==2.0.1              # via pip-tools
 flask-compress==1.4.0     # via dash
 flask==0.12.2             # via dash, flask-compress
 goblin==2.1.0             # via thoth-storages
@@ -72,6 +73,7 @@ parso==0.1.1              # via jedi
 patsy==0.4.1
 pexpect==4.4.0            # via delegator.py, ipython
 pickleshare==0.7.4        # via ipython
+pip-tools==1.11.0         # via thoth-solver
 pipdeptree==0.11.0        # via thoth-solver
 plotly==2.5.0
 prompt-toolkit==1.0.15    # via ipython
@@ -91,7 +93,7 @@ scipy==0.19.1
 seaborn==0.7.1
 send2trash==1.5.0         # via notebook
 simplegeneric==0.8.1      # via ipython
-six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, plotly, prompt-toolkit, protobuf, python-dateutil, traitlets
+six==1.10.0               # via aiogremlin, bleach, bokeh, cycler, gremlinpython, h5py, html5lib, matplotlib, packaging, patsy, pip-tools, plotly, prompt-toolkit, protobuf, python-dateutil, traitlets
 sqlalchemy==1.1.18
 statsmodels==0.8.0
 sympy==1.0
@@ -102,8 +104,8 @@ thoth-analyzer==0.0.5
 thoth-common==0.0.1
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
-thoth-solver==1.0.0
-thoth-storages==0.0.12
+thoth-solver==1.0.1
+thoth-storages==0.0.13
 tornado==4.4.1            # via bokeh, gremlinpython, ipykernel, jupyter-client, notebook, terminado
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook
 urllib3==1.22             # via requests
