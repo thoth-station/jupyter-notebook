@@ -101,7 +101,7 @@ terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 thoth-adviser==0.0.2
 thoth-analyzer==0.0.5
-thoth-common==0.0.1
+thoth-common==0.0.3
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.1
