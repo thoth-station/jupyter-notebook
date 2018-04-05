@@ -68,7 +68,7 @@ numpy==1.14.2
 packaging==17.1           # via bokeh
 pandas==0.19.2
 pandocfilters==1.4.2      # via nbconvert
-param==1.5.1              # via holoviews
+param==1.6.0              # via holoviews
 parso==0.1.1              # via jedi
 patsy==0.4.1
 pexpect==4.4.0            # via delegator.py, ipython
