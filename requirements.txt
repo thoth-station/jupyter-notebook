@@ -82,7 +82,7 @@ ptyprocess==0.5.2         # via pexpect, terminado
 pygments==2.2.0           # via ipython, nbconvert
 pyparsing==2.2.0          # via matplotlib, packaging
 python-dateutil==2.6.1    # via bokeh, botocore, jupyter-client, matplotlib, pandas
-pytz==2018.3              # via matplotlib, pandas, plotly
+pytz==2018.4              # via matplotlib, pandas, plotly
 pyyaml==3.12              # via aiogremlin, bokeh
 pyzmq==17.0.0             # via jupyter-client
 rainbow-logging-handler==2.2.2  # via thoth-solver
