@@ -101,14 +101,16 @@ terminado==0.8.1          # via notebook
 testpath==0.3.1           # via nbconvert
 thoth-adviser==0.0.2
 thoth-analyzer==0.0.5
-thoth-common==0.0.1
+thoth-common==0.0.3
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.1
-thoth-storages==0.0.13
+thoth-storages==0.0.14
 tornado==4.4.1            # via bokeh, gremlinpython, ipykernel, jupyter-client, notebook, terminado
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook
+ujson==1.35               # via thoth-storages
 urllib3==1.22             # via requests
+uvloop==0.9.1             # via thoth-storages
 vincent==0.4.4
 virtualenv==15.1.0        # via thoth-solver
 voluptuous==0.11.1        # via thoth-storages
