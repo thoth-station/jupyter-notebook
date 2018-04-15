@@ -1,5 +1,4 @@
 # Packages for the Thoth project
-#  https://github.com/fridex/thoth#crossroad
 thoth-adviser>=0.0.2
 thoth-analyzer>=0.0.5
 thoth-common>=0.0.3
