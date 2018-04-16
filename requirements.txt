@@ -104,8 +104,8 @@ thoth-analyzer==0.0.5
 thoth-common==0.0.3
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
-thoth-solver==1.0.1
-thoth-storages==0.0.14
+thoth-solver==1.0.2
+thoth-storages==0.0.15
 tornado==4.4.1            # via bokeh, gremlinpython, ipykernel, jupyter-client, notebook, terminado
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook
 ujson==1.35               # via thoth-storages
