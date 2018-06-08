@@ -43,3 +43,5 @@ vincent==0.4.*
 beautifulsoup4==4.5.*
 protobuf==3.*
 xlrd==1.1.*
+# We currently support only pip<10 now
+pip<10
