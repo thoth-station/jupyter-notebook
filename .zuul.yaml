@@ -1,0 +1,17 @@
+project:
+        check:
+                jobs:
+                        -linters:
+                                vars:
+                                        linters:
+                                                -coala
+        gate:
+                jobs:
+                        -linters:
+                                vars:
+                                        linters:
+                                                -coala
+        kebechet-auto-gate:
+                jobs:
+                        -linters
+
