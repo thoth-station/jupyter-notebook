@@ -6,11 +6,11 @@ async-timeout==3.0.0; python_version >= '3.5.3'
 attrs==18.1.0
 backcall==0.1.0
 beautifulsoup4==4.5.3
-bleach==2.1.3
+bleach==2.1.4
 bokeh==0.12.16
-boto3==1.7.67
-botocore==1.10.67
-certifi==2018.4.16
+boto3==1.7.80
+botocore==1.10.80
+certifi==2018.8.13
 chardet==3.0.4
 click==6.7
 cloudpickle==0.2.2
@@ -18,8 +18,8 @@ colorama==0.3.9
 cycler==0.10.0
 cython==0.25.2
 daiquiri==1.5.0
-dash-renderer==0.13.0
-dash==0.22.0
+dash-renderer==0.13.2
+dash==0.25.1
 decorator==4.3.0
 delegator.py==0.1.0
 dill==0.2.8.2
@@ -32,7 +32,7 @@ flask==1.0.2
 goblin==2.1.0
 gremlinpython==3.2.6
 h5py==2.6.0
-hashin==0.13.2
+hashin==0.13.3
 holoviews==1.10.7
 html5lib==1.0.1
 idna==2.7
@@ -48,7 +48,7 @@ jmespath==0.9.3
 jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-core==4.4.0
-kiwisolver==1.0.1; python_version != '3.0.*'
+kiwisolver==1.0.1; python_version != '3.2.*'
 llvmlite==0.24.0
 logutils==0.3.5
 markupsafe==1.0
@@ -61,7 +61,7 @@ nbformat==4.4.0
 networkx==2.1
 notebook==5.6.0
 numba==0.31.0
-numexpr==2.6.6
+numexpr==2.6.8
 numpy==1.15.0
 packaging==17.1
 pandas==0.19.2
@@ -71,13 +71,13 @@ parso==0.3.1
 patsy==0.4.1
 pexpect==4.6.0; sys_platform != 'win32'
 pickleshare==0.7.4
-pip-api==0.0.1; python_version >= '2.7'
+pip-api==0.0.1; python_version != '3.0'
 pip-tools==2.0.2
-pipdeptree==0.13.0; python_version != '3.2.*'
-plotly==3.1.0
+pipdeptree==0.13.0; python_version != '3.1.*'
+plotly==3.1.1
 prometheus-client==0.3.1
 prompt-toolkit==1.0.15
-protobuf==3.6.0
+protobuf==3.6.1
 ptyprocess==0.6.0; os_name != 'nt'
 pygments==2.2.0
 pyparsing==2.2.0
@@ -85,7 +85,7 @@ python-dateutil==2.7.3; python_version >= '2.7'
 pytz==2018.5
 pyviz-comms==0.1.1; python_version >= '2.7'
 pyyaml==3.12
-pyzmq==17.1.0; python_version != '3.2*'
+pyzmq==17.1.2; python_version != '3.0*'
 rainbow-logging-handler==2.2.2
 requests==2.19.1
 retrying==1.3.3
@@ -100,7 +100,7 @@ six==1.10.0
 sqlalchemy==1.1.18
 statsmodels==0.8.0
 sympy==1.0
-terminado==0.8.1
+terminado==0.8.1; python_version != '3.2.*'
 testpath==0.3.1
 thoth-adviser==0.0.2
 thoth-analyzer==0.0.7
@@ -108,15 +108,15 @@ thoth-common==0.2.2
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.2
-thoth-storages==0.1.1
+thoth-storages==0.5.0
 tornado==4.4.1
 traitlets==4.3.2
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.23; python_version < '4'
-uvloop==0.11.0
+urllib3==1.23; python_version != '3.1.*'
+uvloop==0.11.2
 vincent==0.4.4
-virtualenv==16.0.0; python_version != '3.1.*'
+virtualenv==16.0.0; python_version != '3.2.*'
 voluptuous==0.11.5
 wcwidth==0.1.7
 webencodings==0.5.1
