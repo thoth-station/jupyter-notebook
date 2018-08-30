@@ -1,0 +1,4 @@
+- project:
+    kebechet-auto-gate:
+      jobs:
+        - noop
