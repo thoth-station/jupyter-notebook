@@ -3,13 +3,13 @@ aenum==1.4.5
 aiogremlin==3.2.6rc1
 aiohttp==2.2.5
 async-timeout==3.0.0; python_version >= '3.5.3'
-attrs==18.1.0
+attrs==18.2.0
 backcall==0.1.0
 beautifulsoup4==4.5.3
 bleach==2.1.4
 bokeh==0.12.16
-boto3==1.8.2
-botocore==1.11.2
+boto3==1.8.6
+botocore==1.11.6
 certifi==2018.8.24
 chardet==3.0.4
 click==6.7
@@ -37,7 +37,7 @@ holoviews==1.10.7
 html5lib==1.0.1
 idna==2.7
 inflection==0.3.1
-ipykernel==4.8.2
+ipykernel==4.9.0
 ipython-genutils==0.2.0
 ipython==6.5.0; python_version >= '3.3'
 ipywidgets==7.0.5
@@ -48,7 +48,7 @@ jmespath==0.9.3
 jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-core==4.4.0
-kiwisolver==1.0.1; python_version != '3.2.*'
+kiwisolver==1.0.1; python_version != '3.1.*'
 llvmlite==0.24.0
 logutils==0.3.5
 markupsafe==1.0
@@ -71,9 +71,9 @@ parso==0.3.1
 patsy==0.4.1
 pexpect==4.6.0; sys_platform != 'win32'
 pickleshare==0.7.4
-pip-api==0.0.1; python_version >= '2.7'
+pip-api==0.0.1; python_version != '3.3'
 pip-tools==2.0.2
-pipdeptree==0.13.0; python_version >= '2.7'
+pipdeptree==0.13.0; python_version != '3.3.*'
 plotly==3.1.1
 prometheus-client==0.3.1
 prompt-toolkit==1.0.15
@@ -100,27 +100,27 @@ six==1.10.0
 sqlalchemy==1.1.18
 statsmodels==0.8.0
 sympy==1.0
-terminado==0.8.1; python_version != '3.2.*'
+terminado==0.8.1
 testpath==0.3.1
 thoth-adviser==0.0.2
 thoth-analyzer==0.0.7
-thoth-common==0.2.2
+thoth-common==0.2.6
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.2
-thoth-storages==0.5.0
+thoth-storages==0.5.2
 tornado==4.4.1
 traitlets==4.3.2
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.23; python_version != '3.1.*'
+urllib3==1.23; python_version >= '2.6'
 uvloop==0.11.2
 vincent==0.4.4
-virtualenv==16.0.0; python_version >= '2.7'
+virtualenv==16.0.0; python_version != '3.1.*'
 voluptuous==0.11.5
 wcwidth==0.1.7
 webencodings==0.5.1
 werkzeug==0.14.1
 widgetsnbextension==3.0.8
 xlrd==1.1.0
-yarl==1.1.1; python_version >= '3.4.1'
+yarl==1.1.1
