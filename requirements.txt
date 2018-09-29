@@ -8,8 +8,8 @@ backcall==0.1.0
 beautifulsoup4==4.5.3
 bleach==2.1.4
 bokeh==0.12.16
-boto3==1.9.12
-botocore==1.12.12
+boto3==1.9.14
+botocore==1.12.14
 certifi==2018.8.24
 chardet==3.0.4
 click==6.6
@@ -32,14 +32,14 @@ flask==1.0.2
 goblin==2.1.0
 gremlinpython==3.2.6
 h5py==2.6.0
-hashin==0.13.3
+hashin==0.13.3; python_version != '3.2.*'
 holoviews==1.10.7
 html5lib==1.0.1
 idna==2.7
 inflection==0.3.1
 ipykernel==5.0.0
 ipython-genutils==0.2.0
-ipython==6.5.0; python_version >= '3.3'
+ipython==7.0.1; python_version >= '3.3'
 ipywidgets==7.0.5
 itsdangerous==0.24
 jedi==0.12.1
@@ -48,7 +48,7 @@ jmespath==0.9.3
 jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-core==4.4.0
-kiwisolver==1.0.1; python_version != '3.1.*'
+kiwisolver==1.0.1; python_version != '3.2.*'
 llvmlite==0.25.0
 logutils==0.3.5
 markupsafe==1.0
@@ -63,7 +63,7 @@ notebook==5.7.0
 numba==0.31.0
 numexpr==2.6.8
 numpy==1.15.2
-packaging==18.0; python_version != '3.2.*'
+packaging==18.0; python_version != '3.1.*'
 pandas==0.19.2
 pandocfilters==1.4.2
 param==1.7.0; python_version >= '2.7'
@@ -71,21 +71,21 @@ parso==0.3.1
 patsy==0.4.1
 pexpect==4.6.0; sys_platform != 'win32'
 pickleshare==0.7.5
-pip-api==0.0.1; python_version != '3.2'
-pip-tools==3.0.0; python_version != '3.2.*'
-pipdeptree==0.13.0; python_version != '3.2.*'
-plotly==3.2.1
+pip-api==0.0.1; python_version != '3.0'
+pip-tools==3.0.0; python_version != '3.0.*'
+pipdeptree==0.13.0; python_version != '3.0.*'
+plotly==3.3.0
 prometheus-client==0.3.1
-prompt-toolkit==1.0.15
+prompt-toolkit==2.0.4
 protobuf==3.6.1
 ptyprocess==0.6.0; os_name != 'nt'
 pygments==2.2.0
-pyparsing==2.2.1; python_version != '3.2.*'
+pyparsing==2.2.1; python_version != '3.1.*'
 python-dateutil==2.7.3; python_version >= '2.7'
 pytz==2018.5
 pyviz-comms==0.6.0; python_version >= '2.7'
 pyyaml==3.12
-pyzmq==17.1.2; python_version != '3.2*'
+pyzmq==17.1.2; python_version != '3.0*'
 rainbow-logging-handler==2.2.2
 requests==2.19.1
 retrying==1.3.3
@@ -95,17 +95,17 @@ scikit-learn==0.18.2
 scipy==0.19.1
 seaborn==0.7.1
 send2trash==1.5.0
-sentry-sdk==0.3.5
+sentry-sdk==0.3.6
 simplegeneric==0.8.1
 six==1.10.0
 sqlalchemy==1.1.18
 statsmodels==0.8.0
 sympy==1.0
-terminado==0.8.1; python_version != '3.1.*'
-testpath==0.3.1
+terminado==0.8.1; python_version != '3.2.*'
+testpath==0.4.1
 thoth-adviser==0.1.1
 thoth-analyzer==0.0.7
-thoth-common==0.3.2
+thoth-common==0.3.5
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.2
@@ -114,14 +114,14 @@ tornado==4.4.1
 traitlets==4.3.2
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.23; python_version != '3.1.*'
+urllib3==1.23; python_version >= '2.6'
 uvloop==0.11.2
 vincent==0.4.4
-virtualenv==16.0.0; python_version >= '2.7'
+virtualenv==16.0.0; python_version != '3.0.*'
 voluptuous==0.11.5
 wcwidth==0.1.7
 webencodings==0.5.1
 werkzeug==0.14.1
 widgetsnbextension==3.0.8
 xlrd==1.1.0
-yarl==1.1.1
+yarl==1.1.1; python_version >= '3.4.1'
