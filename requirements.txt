@@ -102,7 +102,7 @@ terminado==0.8.1
 testpath==0.4.2
 thoth-adviser==0.3.0
 thoth-analyzer==0.1.0
-thoth-common==0.3.16
+thoth-common==0.4.0
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.2
