@@ -8,8 +8,8 @@ backcall==0.1.0
 beautifulsoup4==4.5.3
 bleach==3.0.2
 bokeh==0.12.16
-boto3==1.9.38
-botocore==1.12.38
+boto3==1.9.39
+botocore==1.12.39
 certifi==2018.10.15
 chardet==3.0.4
 click==6.6
@@ -106,7 +106,7 @@ thoth-common==0.4.0
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-solver==1.0.2
-thoth-storages==0.7.2
+thoth-storages==0.7.3
 tornado==4.4.1
 traitlets==4.3.2
 tzlocal==1.5.1
