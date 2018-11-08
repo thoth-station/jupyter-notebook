@@ -20,6 +20,10 @@ scikit-learn
 scipy
 seaborn
 
+# JupyterHub extensions
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+
 # These are from actual s2i minimal notebook image
 #  https://github.com/jupyter-on-openshift/jupyter-notebooks/tree/master/scipy-notebook
 ipywidgets==7.0.*
