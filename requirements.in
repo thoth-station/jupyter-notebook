@@ -1,11 +1,12 @@
 # Packages for the Thoth project
-thoth-adviser>=0.0.2
-thoth-analyzer>=0.0.5
-thoth-common>=0.0.3
-thoth-lab>=0.0.3
-thoth-package-extract>=1.0.0
-thoth-solver>=1.0.2
-thoth-storages>=0.0.25
+thoth-adviser
+thoth-analyzer
+thoth-common
+thoth-lab
+thoth-package-extract
+thoth-python
+thoth-solver
+thoth-storages
 
 # Some additional libraries worth to include and state explicitly
 dash
@@ -47,5 +48,3 @@ vincent==0.4.*
 beautifulsoup4==4.5.*
 protobuf==3.*
 xlrd==1.1.*
-# We currently support only pip<10 now
-pip<10
