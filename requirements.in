@@ -2,6 +2,7 @@
 thoth-adviser
 thoth-analyzer
 thoth-common
+thoth-digests-fetcher
 thoth-lab
 thoth-package-extract
 thoth-python

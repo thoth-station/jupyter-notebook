@@ -21,7 +21,7 @@ boto3==1.9.97             # via thoth-storages
 botocore==1.12.97         # via boto3, s3transfer
 certifi==2018.11.29       # via amun, requests, sentry-sdk
 chardet==3.0.4            # via aiohttp, requests
-click==6.6                # via flask, pip-tools, thoth-adviser, thoth-analyzer, thoth-package-extract, thoth-python, thoth-solver
+click==6.6                # via flask, pip-tools, thoth-adviser, thoth-analyzer, thoth-digests-fetcher, thoth-package-extract, thoth-python, thoth-solver
 cloudpickle==0.5.6
 colorama==0.4.1           # via rainbow-logging-handler
 contoml==0.32             # via thoth-python
@@ -133,6 +133,7 @@ testpath==0.4.2           # via nbconvert
 thoth-adviser==0.3.0
 thoth-analyzer==0.1.2
 thoth-common==0.7.1
+thoth-digests-fetcher==0.0.0
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
 thoth-python==0.4.6
