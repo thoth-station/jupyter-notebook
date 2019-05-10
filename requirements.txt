@@ -4,23 +4,17 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
---trusted-host tensorflow.pypi.thoth-station.ninja
-
-aenum==1.4.5              # via aiogremlin, gremlinpython
-aiogremlin==3.2.6rc1      # via goblin, thoth-storages
-aiohttp==2.2.5            # via aiogremlin
-amun==0.2.0               # via thoth-storages
-async-timeout==3.0.1      # via aiohttp
-attrs==18.2.0             # via thoth-common, thoth-package-extract, thoth-python
-autopep8==1.4.3           # via thoth-solver
+amun==0.2.1               # via thoth-storages
+attrs==19.1.0             # via jsonschema, thoth-common, thoth-package-extract, thoth-python
+autopep8==1.4.4           # via thoth-solver
 backcall==0.1.0           # via ipython
 beautifulsoup4==4.6.3
 bleach==3.1.0             # via nbconvert
 bokeh==0.13.0
-boto3==1.9.97             # via thoth-storages
-botocore==1.12.97         # via boto3, s3transfer
-certifi==2018.11.29       # via amun, requests, sentry-sdk
-chardet==3.0.4            # via aiohttp, requests
+boto3==1.9.145            # via thoth-storages
+botocore==1.12.145        # via boto3, s3transfer
+certifi==2019.3.9         # via amun, requests, sentry-sdk
+chardet==3.0.4            # via requests
 click==6.6                # via flask, pip-tools, thoth-adviser, thoth-analyzer, thoth-digests-fetcher, thoth-package-extract, thoth-python, thoth-solver
 cloudpickle==0.5.6
 colorama==0.4.1           # via rainbow-logging-handler
@@ -28,14 +22,14 @@ contoml==0.32             # via thoth-python
 cycler==0.10.0            # via matplotlib
 cython==0.28.6
 daiquiri==1.5.0           # via thoth-common, thoth-package-extract
-dash-core-components==0.43.1  # via dash
-dash-html-components==0.13.5  # via dash
-dash-table==3.4.0         # via dash
-dash==0.37.0
-dash_renderer==0.18.0     # via dash
-dask[array]==1.1.1        # via scikit-image
-decorator==4.3.2          # via ipython, networkx, plotly, traitlets
-defusedxml==0.5.0         # via nbconvert
+dash-core-components==0.47.0  # via dash
+dash-html-components==0.16.0  # via dash
+dash-table==3.6.0         # via dash
+dash==0.42.0
+dash_renderer==0.23.0     # via dash
+dask[array]==1.2.2        # via scikit-image
+decorator==4.4.0          # via ipython, networkx, plotly, traitlets
+defusedxml==0.6.0         # via nbconvert
 delegator.py==0.1.1       # via thoth-analyzer
 descartes==1.1.0          # via plotnine
 dill==0.2.9
@@ -44,22 +38,20 @@ docutils==0.14            # via botocore
 entrypoints==0.3          # via nbconvert
 flask-compress==1.4.0     # via dash
 flask==1.0.2              # via dash, flask-compress
-goblin==2.1.0             # via thoth-storages
-gremlinpython==3.2.6      # via thoth-storages
+grpcio==1.20.1            # via pydgraph
 h5py==2.7.1
-holoviews==1.11.2
-idna==2.8                 # via requests, yarl
-inflection==0.3.1         # via goblin
+holoviews==1.12.2
+idna==2.8                 # via requests
 ipykernel==5.1.0          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via jupyter-contrib-nbextensions, nbformat, notebook, traitlets
-ipython==7.3.0            # via ipykernel, ipywidgets, jupyter-latex-envs
+ipython==7.5.0            # via ipykernel, ipywidgets, jupyter-latex-envs
 ipywidgets==7.2.1
 iso8601==0.1.12           # via contoml
 itsdangerous==1.1.0       # via flask
-jedi==0.13.2              # via ipython
-jinja2==2.10              # via bokeh, flask, nbconvert, notebook
-jmespath==0.9.3           # via boto3, botocore
-jsonschema==2.6.0         # via nbformat
+jedi==0.13.3              # via ipython
+jinja2==2.10.1            # via bokeh, flask, nbconvert, notebook
+jmespath==0.9.4           # via boto3, botocore
+jsonschema==3.0.1         # via nbformat
 jupyter-client==5.2.4     # via ipykernel, notebook
 jupyter-contrib-core==0.3.3  # via jupyter-contrib-nbextensions, jupyter-nbextensions-configurator
 jupyter-contrib-nbextensions==0.5.1
@@ -67,92 +59,90 @@ jupyter-core==4.4.0       # via jupyter-client, jupyter-contrib-core, jupyter-co
 jupyter-highlight-selected-word==0.2.0  # via jupyter-contrib-nbextensions
 jupyter-latex-envs==1.4.6  # via jupyter-contrib-nbextensions
 jupyter-nbextensions-configurator==0.4.1
-kiwisolver==1.0.1         # via matplotlib
-llvmlite==0.27.1          # via numba
+kiwisolver==1.1.0         # via matplotlib
+llvmlite==0.28.0          # via numba
 logutils==0.3.5           # via rainbow-logging-handler
-lxml==4.3.1               # via jupyter-contrib-nbextensions, thoth-python
-markupsafe==1.1.0         # via jinja2
-matplotlib==3.0.2
+lxml==4.3.3               # via jupyter-contrib-nbextensions, thoth-python
+markupsafe==1.1.1         # via jinja2
+matplotlib==3.0.3
 mistune==0.8.4            # via nbconvert
-mizani==0.5.3             # via plotnine
+mizani==0.5.4             # via plotnine
 mpmath==1.1.0             # via sympy
-multidict==4.5.2          # via aiohttp, yarl
-nbconvert==5.4.1          # via jupyter-contrib-nbextensions, jupyter-latex-envs, notebook
+nbconvert==5.5.0          # via jupyter-contrib-nbextensions, jupyter-latex-envs, notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook, plotly
-networkx==2.2
-notebook==5.7.4           # via jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-latex-envs, jupyter-nbextensions-configurator, widgetsnbextension
+networkx==2.3
+notebook==5.7.8           # via jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-latex-envs, jupyter-nbextensions-configurator, widgetsnbextension
 numba==0.38.1
 numexpr==2.6.9
-numpy==1.16.1
+numpy==1.16.3
 packaging==19.0           # via bokeh
 palettable==3.1.1         # via mizani
 pandas==0.23.4
 pandocfilters==1.4.2      # via nbconvert
-param==1.8.2              # via holoviews, pyviz-comms
-parso==0.3.4              # via jedi
+param==1.9.0              # via holoviews, pyviz-comms
+parso==0.4.0              # via jedi
 patsy==0.5.1
-pexpect==4.6.0            # via delegator.py, ipython
+pexpect==4.7.0            # via delegator.py, ipython
 pickleshare==0.7.5        # via ipython
-pillow==5.4.1             # via scikit-image
-pip-tools==3.3.2          # via thoth-solver
+pillow==6.0.0             # via scikit-image
+pip-tools==3.7.0          # via thoth-solver
 pipdeptree==0.13.2        # via thoth-solver
-plotly==3.6.1
+plotly==3.9.0
 plotnine==0.5.1
-prometheus-client==0.5.0  # via notebook
-prompt-toolkit==2.0.8     # via ipython
+prometheus-client==0.6.0  # via notebook
+prompt-toolkit==2.0.9     # via ipython
 protobuf==3.6.1
 ptyprocess==0.6.0         # via pexpect, terminado
 pycodestyle==2.5.0        # via autopep8
-pygments==2.3.1           # via ipython, nbconvert
-pyparsing==2.3.1          # via matplotlib, packaging
-python-dateutil==2.8.0    # via amun, bokeh, botocore, jupyter-client, matplotlib, pandas
-pytz==2018.9              # via contoml, pandas, plotly, rfc5424-logging-handler, tzlocal
-pyviz-comms==0.7.0        # via holoviews
-pywavelets==1.0.1         # via scikit-image
-pyyaml==3.12              # via aiogremlin, bokeh, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, thoth-common
-pyzmq==18.0.0             # via jupyter-client, notebook
+pydgraph==1.1.1           # via thoth-storages
+pygments==2.4.0           # via ipython, nbconvert
+pyparsing==2.4.0          # via matplotlib, packaging
+pyrsistent==0.15.1        # via jsonschema
+python-dateutil==2.8.0    # via amun, bokeh, botocore, jupyter-client, matplotlib, pandas, thoth-storages
+pytz==2019.1              # via contoml, pandas, plotly, rfc5424-logging-handler, tzlocal
+pyviz-comms==0.7.2        # via holoviews
+pywavelets==1.0.3         # via scikit-image
+pyyaml==5.1               # via bokeh, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, thoth-common
+pyzmq==18.0.1             # via jupyter-client, notebook
 rainbow-logging-handler==2.2.2  # via thoth-solver
 requests==2.21.0
 retrying==1.3.3           # via plotly
-rfc5424-logging-handler==1.4.1  # via thoth-common
+rfc5424-logging-handler==1.4.2  # via thoth-common
 s3transfer==0.2.0         # via boto3
 scikit-image==0.14.2
-scikit-learn==0.20.2
+scikit-learn==0.20.3
 scipy==1.1.0
 seaborn==0.9.0
 semantic-version==2.6.0   # via thoth-python
 send2trash==1.5.0         # via notebook
-sentry-sdk==0.7.3         # via thoth-common
-six==1.10.0               # via aiogremlin, amun, bleach, bokeh, contoml, cycler, gremlinpython, h5py, packaging, patsy, pip-tools, plotly, prompt-toolkit, protobuf, python-dateutil, retrying, scikit-image, traitlets
-sqlalchemy==1.2.18
+sentry-sdk==0.7.14        # via thoth-common
+six==1.12.0               # via amun, bleach, bokeh, contoml, cycler, grpcio, h5py, jsonschema, packaging, patsy, pip-tools, plotly, prompt-toolkit, protobuf, pyrsistent, python-dateutil, retrying, scikit-image, traitlets
+sqlalchemy==1.2.19
 statsmodels==0.9.0
 strict-rfc3339==0.7       # via contoml
 sympy==1.1.1
-terminado==0.8.1          # via notebook
+terminado==0.8.2          # via notebook
 testpath==0.4.2           # via nbconvert
 thoth-adviser==0.3.0
 thoth-analyzer==0.1.2
-thoth-common==0.7.1
+thoth-common==0.8.5
 thoth-digests-fetcher==0.0.0
 thoth-lab==0.0.3
 thoth-package-extract==1.0.0
-thoth-python==0.4.6
+thoth-python==0.5.0
 thoth-solver==1.1.0
-thoth-storages==0.9.6
+thoth-storages==0.11.3
 timestamp==0.0.1          # via contoml
 toolz==0.9.0              # via dask
-tornado==4.4.1            # via bokeh, gremlinpython, ipykernel, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, notebook, terminado
+tornado==6.0.2            # via bokeh, ipykernel, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, notebook, terminado
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-core, jupyter-latex-envs, jupyter-nbextensions-configurator, nbconvert, nbformat, notebook
 tzlocal==1.5.1            # via rfc5424-logging-handler
-ujson==1.35               # via thoth-storages
-urllib3==1.24.1           # via amun, botocore, requests, sentry-sdk
-uvloop==0.12.1            # via thoth-storages
+urllib3==1.24.3           # via amun, botocore, requests, sentry-sdk
 vincent==0.4.4
-virtualenv==16.4.0        # via thoth-solver
+virtualenv==16.5.0        # via thoth-solver
 voluptuous==0.11.5        # via thoth-storages
 wcwidth==0.1.7            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
-werkzeug==0.14.1          # via flask
+werkzeug==0.15.2          # via flask
 widgetsnbextension==3.2.1  # via ipywidgets
 xlrd==1.2.0
-yarl==1.1.1               # via aiohttp, thoth-storages
