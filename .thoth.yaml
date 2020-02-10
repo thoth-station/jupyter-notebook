@@ -1,0 +1,14 @@
+managers:
+  - name: update
+    configuration:
+      labels: [bot]
+  - name: info
+  - name: version
+    configuration:
+      maintainers:
+        - goern
+        - fridex
+      assignees:
+        - sesheta
+      labels: [bot]
+      changelog_file: true
